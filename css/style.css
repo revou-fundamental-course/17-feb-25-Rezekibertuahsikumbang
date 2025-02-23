@@ -1,1 +1,58 @@
 /* ini file css */
+.body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.container {
+    width: 960px;
+    margin: 30px auto;
+    background-color: rgb(108, 184, 228);
+    position: relative;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: 9999px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.gambar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+
+.header {
+    padding: 10px;
+    padding-bottom: 10px;
+    float: right;
+}
+
+
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
